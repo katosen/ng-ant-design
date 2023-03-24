@@ -123,6 +123,15 @@
   dependencies:
     tslib "^2.3.0"
 
+"@angular/cdk@^15.0.0":
+  version "15.2.4"
+  resolved "http://registry.npm.release.ctripcorp.com/@angular/cdk/download/@angular/cdk-15.2.4.tgz#aa792010fb1073088d14446bc30894effb0e1fcb"
+  integrity sha1-qnkgEPsQcwiNFERrwwiU7/sOH8s=
+  dependencies:
+    tslib "^2.3.0"
+  optionalDependencies:
+    parse5 "^7.1.2"
+
 "@angular/cli@~15.2.4":
   version "15.2.4"
   resolved "http://registry.npm.release.ctripcorp.com/@angular/cli/download/@angular/cli-15.2.4.tgz#5163efb3f3e5b2a8ab0598d46d4dc200a51e7197"
@@ -211,6 +220,21 @@
   integrity sha1-s34Y46hSXAGpzqC698ex2/i0e3g=
   dependencies:
     tslib "^2.3.0"
+
+"@ant-design/colors@^5.0.0":
+  version "5.1.1"
+  resolved "http://registry.npm.release.ctripcorp.com/@ant-design/colors/download/@ant-design/colors-5.1.1.tgz#800b2186b1e27e66432e67d03ed96af3e21d8940"
+  integrity sha1-gAshhrHifmZDLmfQPtlq8+IdiUA=
+  dependencies:
+    "@ctrl/tinycolor" "^3.3.1"
+
+"@ant-design/icons-angular@^15.0.0":
+  version "15.0.0"
+  resolved "http://registry.npm.release.ctripcorp.com/@ant-design/icons-angular/download/@ant-design/icons-angular-15.0.0.tgz#fa6119e6c1f710f2c03ba11aff25bfd87b5a0243"
+  integrity sha1-+mEZ5sH3EPLAO6Ea/yW/2HtaAkM=
+  dependencies:
+    "@ant-design/colors" "^5.0.0"
+    tslib "^2.0.0"
 
 "@assemblyscript/loader@^0.10.1":
   version "0.10.1"
@@ -1191,6 +1215,11 @@
   version "1.5.0"
   resolved "http://registry.npm.release.ctripcorp.com/@colors/colors/download/@colors/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha1-u1BFecHK6SPmV2pPXaQ9Jfl729k=
+
+"@ctrl/tinycolor@^3.3.1":
+  version "3.6.0"
+  resolved "http://registry.npm.release.ctripcorp.com/@ctrl/tinycolor/download/@ctrl/tinycolor-3.6.0.tgz#53fa5fe9c34faee89469e48f91d51a3766108bc8"
+  integrity sha1-U/pf6cNPruiUaeSPkdUaN2YQi8g=
 
 "@discoveryjs/json-ext@0.5.7":
   version "0.5.7"
@@ -2602,6 +2631,11 @@ custom-event@~1.0.0:
   version "1.0.1"
   resolved "http://registry.npm.release.ctripcorp.com/custom-event/download/custom-event-1.0.1.tgz#5d02a46850adf1b4a317946a3928fccb5bfd0425"
   integrity sha1-XQKkaFCt8bSjF5RqOSj8y1v9BCU=
+
+date-fns@^2.16.1:
+  version "2.29.3"
+  resolved "http://registry.npm.release.ctripcorp.com/date-fns/download/date-fns-2.29.3.tgz#27402d2fc67eb442b511b70bbdf98e6411cd68a8"
+  integrity sha1-J0AtL8Z+tEK1EbcLvfmOZBHNaKg=
 
 date-format@^4.0.14:
   version "4.0.14"
@@ -4321,6 +4355,16 @@ neo-async@^2.6.2:
   resolved "http://registry.npm.release.ctripcorp.com/neo-async/download/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha1-tKr7k+OustgXTKU88WOrfXMIMF8=
 
+ng-zorro-antd@^15.0.3:
+  version "15.0.3"
+  resolved "http://registry.npm.release.ctripcorp.com/ng-zorro-antd/download/ng-zorro-antd-15.0.3.tgz#c81289af78af1922bd09c2d65112ffc11c043eca"
+  integrity sha1-yBKJr3ivGSK9CcLWURL/wRwEPso=
+  dependencies:
+    "@angular/cdk" "^15.0.0"
+    "@ant-design/icons-angular" "^15.0.0"
+    date-fns "^2.16.1"
+    tslib "^2.3.0"
+
 nice-napi@^1.0.2:
   version "1.0.2"
   resolved "http://registry.npm.release.ctripcorp.com/nice-napi/download/nice-napi-1.0.2.tgz#dc0ab5a1eac20ce548802fc5686eaa6bc654927b"
@@ -4674,7 +4718,7 @@ parse5@^6.0.1:
   resolved "http://registry.npm.release.ctripcorp.com/parse5/download/parse5-6.0.1.tgz#e1a1c085c569b3dc08321184f19a39cc27f7c30b"
   integrity sha1-4aHAhcVps9wIMhGE8Zo5zCf3wws=
 
-parse5@^7.0.0:
+parse5@^7.0.0, parse5@^7.1.2:
   version "7.1.2"
   resolved "http://registry.npm.release.ctripcorp.com/parse5/download/parse5-7.1.2.tgz#0736bebbfd77793823240a23b7fc5e010b7f8e32"
   integrity sha1-Bza+u/13eTgjJAojt/xeAQt/jjI=
@@ -5664,7 +5708,7 @@ tree-kill@1.2.2:
   resolved "http://registry.npm.release.ctripcorp.com/tree-kill/download/tree-kill-1.2.2.tgz#4ca09a9092c88b73a7cdc5e8a01b507b0790a0cc"
   integrity sha1-TKCakJLIi3OnzcXooBtQeweQoMw=
 
-tslib@2.5.0, tslib@^2.1.0, tslib@^2.3.0:
+tslib@2.5.0, tslib@^2.0.0, tslib@^2.1.0, tslib@^2.3.0:
   version "2.5.0"
   resolved "http://registry.npm.release.ctripcorp.com/tslib/download/tslib-2.5.0.tgz#42bfed86f5787aeb41d031866c8f402429e0fddf"
   integrity sha1-Qr/thvV4eutB0DGGbI9AJCng/d8=
